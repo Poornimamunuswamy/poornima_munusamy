@@ -175,7 +175,7 @@
           $('.timer').each(count);
           
           // restart a timer when a button is clicked
-          $( window ).scroll(function () {console.log($(window).scrollTop());
+          $( window ).scroll(function () {
         if($(window).scrollTop() > 300 && $(window).scrollTop() < 850)
         {
            $('.timer').each(count);
